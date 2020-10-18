@@ -1,0 +1,805 @@
+	/*Por defecto algunos elementos html tienen un padding y un margin*/
+	*{
+		margin:0px;
+		padding:0px;
+	/* sirve para ver que no le hemos adjudicado color
+		background-color: #ADADAD;
+
+	*/
+	}
+	body{
+		background-color: #EDC7B7
+	}
+	img#logo{
+
+		width:500px;
+		margin-left:50px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	img#logoTablet{
+		width:65px;
+		margin-left:20px;
+		margin-top:11px;
+		margin-bottom:10px;
+	}
+
+
+	/*-------------------HEADER--------------------*/
+
+	#headerMenu li{
+		float:left; 
+		list-style:none;
+		padding:10px;
+		
+	}
+
+	#headerMenu li:hover a{
+		color:#123C69;
+		
+	}
+
+
+	#headerMenu a{
+		text-decoration:none;
+		font-family:"Comic Sans MS";
+		color:white;
+		font-size:26px;
+		}
+
+
+	#menu{
+		
+		float:right; 
+		margin-top:10px; 
+		margin-right:50px;
+		border: white 2px dotted;
+		
+	}
+
+	header{
+		overflow: auto;
+		background-color:#AC3B61;
+		border: black 1px solid;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right:40px; 
+		margin-left:40px;
+		j
+	}
+	header::after{
+		clear:both;
+	}
+
+	h2{
+
+		display: none;
+	
+	}
+	
+	 
+
+	h3{
+		padding-top: 10px;
+		font-family: "Comic Sans MS";
+		margin-bottom: 15px;
+	}
+
+	/*------------------CONTAINER 3 BOXES----------------*/
+	.container-1{
+		
+		display:flex;
+		justify-content: space-around;
+		margin-top: 20px;
+		margin-right:30px; 
+		margin-left:30px;
+
+	}
+	.container-1 div{
+		
+		border:2px white dashed;
+		padding:10px;
+		margin-right:10px; 
+		margin-left:10px;
+	}
+
+	#LeftBox  {
+		
+		/*#EEE2DC*/
+		background-color:#EEE2DC;	
+		flex-basis:  25%;
+		height: 800px;
+	}
+
+	h3 a{
+		text-decoration:none;
+		color: black;
+	}
+	
+
+	#LeftBoxtext li{
+
+	list-style-type: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+	}
+	#LeftBoxtext a{
+		
+		font-size:20px;
+		font-family:"Comic Sans MS";
+		text-decoration:none;
+		color:#123C69;
+		
+		
+	}
+
+
+	/*middle box ALUMNOS*/
+	img.user{
+	width:100px;
+	margin-left: 0px;
+
+	}
+	/*boton enviar alumnos*/
+	.Enviar a{
+		
+		text-decoration:none;
+		color:black;
+	}
+	#excel{
+		border:none;
+		margin-top:10px;
+	}
+	
+
+	#MBox{
+	/*overflow: auto;*/
+	background-color:#EEE2DC;
+	flex-basis: 50%;
+	height: 800px;
+	overflow: scroll;	
+	}
+
+
+	.datos li{
+		font-size:15px;
+		font-family:"Comic Sans MS";
+		/*float :right;*/
+		margin-left: 10px;
+		margin-bottom: 10px;
+		/*margin-top: 10px;*/
+		list-style-type: none;
+		display: column;
+
+	}
+
+
+	.fotos{
+	background-color: grey;
+		float :left;
+
+	}
+	/*middle box FORUM*/
+	#tablaForum, th, td {
+	  border: 1px solid black;
+	  padding: 5px;
+	  font-family:"Comic Sans MS";	
+	 color: white;
+	  background-color: #BAB2B5;	
+	}
+	#tablaForum {
+	  border-spacing: 10px;
+	  width:100%
+	}
+
+
+
+	#tablaForum a{
+	text-decoration: none;
+	font-family:"Comic Sans MS";	
+	 color: white; 
+	}
+
+	#tablaForum a:Hover{
+		
+	 color:#123C69; 
+	}
+	#RightBox {
+
+	background-color:#EEE2DC;	
+	flex-basis: 25%;
+	height: 800px;	
+	overflow: scroll;
+	}
+
+	.RightBoxtext li{
+
+	list-style-type: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+	}
+
+
+	.RightBoxtext {
+		
+		font-size:18px;
+		color:#123C69;
+		font-family:"Comic Sans MS";
+		
+		
+		
+	}
+
+
+	/*-- p1.4 middle box videos------*/
+	img.numeros{
+		width:100px;
+		padding: 2px;
+		float: left;
+	}
+
+	.video{
+		width:200px;
+		
+		
+	}
+
+	.temas li{
+		list-style: none;
+		font-family:"Comic Sans MS";
+	}
+
+
+	.fila1{
+		width:220px;
+	}
+
+
+
+
+
+
+
+
+
+	img#logouni{
+		width:250px;
+		border-right:black 2px solid;
+		padding: 2px;
+		margin-top: 5px;
+	}
+
+	#politica a{
+
+	  border-right:black 2px solid;
+	  padding: 5px;
+	  padding-bottom: 5px;
+	  margin: 5px;
+	  margin-bottom:  5px;
+	  color: white;
+	  
+	  
+	}
+
+	#contacto a{
+
+	  
+	  padding-bottom: 5px;
+	  margin: 5px;
+	  margin-bottom:  5px;
+	  color: white;
+	  
+	}
+	 
+
+	footer{
+		overflow: auto;
+		border: black 1px solid;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		margin-right:40px; 
+		margin-left:40px;
+		
+		background-color:#AC3B61;
+		padding: 5px;
+		flex: 0 0 auto;
+		display: flex;
+
+		justify-content: space-between;
+	}
+
+	.container-footer{
+			width:100%;
+			
+			justify-content: space-between;
+	}
+
+	.container-footer1{
+		display:flex;
+		padding-top:20px;
+			padding-right:20px;
+			padding-left:20px;
+			justify-content:space-between;
+			
+	}
+
+	.container-footer2{
+		padding-top:5px;
+		background: linear-gradient(to bottom, #AC3B61, #C96385);
+		text-align:center;
+	}
+
+	.otra-informacion a{
+		
+		text-decoration:none;
+		color:white;
+		font-size:11px;
+		border:black;
+		
+		margin:0;
+		padding:0;
+		/*left:200px;*/
+		
+	}
+	.otra-informacion a:Hover{
+		
+		
+		color:#123C69;
+		
+		
+	}
+	#row1{
+		border:white;
+	}
+
+	/*FOOTER*/
+
+	#tabla-footer1{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		border: 2px dotted white;
+		border-bottom:none;
+	}
+
+	#tabla-footer1 tr td{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		text-align:left;
+		
+	}
+
+	#tabla-footer1 a{
+		color:white;
+		background:#AC3B61;
+		text-align:letf;
+		text-decoration:none;
+		font-size: 12px;
+		margin:5px;
+		padding:5px;
+		padding-bottom:10px;
+		
+		
+	}
+
+	#tabla-footer1 img{
+		text-align:center;
+		width:30px;
+		margin-left:5px;
+	}
+	#tabla-footer1 a:Hover{
+		color: #123C69;
+	}
+	#tabla-footer2{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		border: 2px dotted white;
+			border-bottom:none;
+	}
+
+	#tabla-footer2 tr td{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		text-align:center;
+		
+		
+	}
+
+	#tabla-footer2 a{
+		color:white;
+		background:#AC3B61;
+		text-decoration:none;
+		font-size: 12px;
+		margin:5px;
+		padding:5px;
+		padding-bottom:10px;
+		float:center;
+	}
+
+	#tabla-footer2 img{
+		width:30px;
+		margin-left:5px;
+	}
+
+	#tabla-footer3 a:Hover{
+		color:#123C69;
+	}
+	#tabla-footer3{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		border: 2px dotted white;
+			border-bottom:none;
+	}
+
+	#tabla-footer3 tr td{
+		border:none;
+		background:#AC3B61; 
+		justify-content:center;
+		text-align:left;
+		
+		
+	}
+
+
+	#tabla-footer3 a{
+		color:white;
+		background:#AC3B61;
+		text-decoration:none;
+		font-size: 12px;
+		margin:5px;
+		padding:5px;
+		padding-bottom:10px;
+		float:center;
+	}
+
+	#tabla-footer3 img{
+		width:30px;
+		margin-left:5px;
+	}
+
+
+	/*------------QUITAR PARA TABLET----------------*/
+
+
+	#BoxTablet{
+		display: none;
+	}
+	 #MenuTablet {
+		display: none;	
+	}
+	
+	
+
+
+	/*------------PANTALLA TABLET-------------------------*/
+
+	@media only screen and (max-width: 768px){
+
+	#web{ display: none;
+	}
+	/*QUITAR DE VERSION ORDENADOR*/
+	#headerMenu{
+	display: none;
+	}
+	#menu{
+		display: none;
+	}
+	#RightBox{
+		display: none;}
+
+
+	#LeftBox{
+		display: none;}
+	/*tablet*/
+	
+
+
+	h3{
+		
+		font-size:15px; 
+		padding-top: 5px;
+		font-family: "Comic Sans MS";
+		margin-bottom: 10px;
+	}
+
+	img#logoTablet{
+		width:50px;
+		margin-left:20px;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	header{
+		margin-right:10px; 
+		margin-left:10px;
+	}
+
+	header::after{
+		clear:both;
+	}
+	.container-1{
+		
+		display:flex;
+		justify-content: space-around;
+		margin-top: 10px;
+		margin-right:5px; 
+		margin-left:5px;
+	}
+
+	#BoxTablet{
+	display: inline; /*hace que aparezca*/
+	flex-basis: 15%;
+	background-color:#EEE2DC;	
+	}
+
+	#BoxTablet li{
+
+	font-size:13px; 
+	list-style-type: none;
+	margin-bottom: 5px;
+
+	}	
+	#TabletRightBox a {
+		text-decoration: none;
+		color:#123C69;
+	}
+
+	.tablettext{
+		color:#123C69;
+	}
+
+	#MBox{
+
+		flex-basis:75%;
+	}
+	.container-footer1{
+		display:none;
+		
+	}
+	.otra-informacion a{
+		font-size:15px;
+	}
+
+	}
+
+
+	/*------------QUITAR PARA MOVIL----------------*/
+
+	#menu-hamburguesa ul{
+	  display: none;
+
+	}
+
+	input:checked  ~ #menu-hamburguesa  ul{
+	  display:block;
+
+	}
+
+	input{
+	  display: none;
+	}
+
+	label {
+
+	   display: none;
+	  
+	}
+
+
+
+	/* Estilo del boton cuando se pasa el mouse por encima*/
+	label:hover{
+	  background: grey;
+	}
+
+	/* Estilo del boton cuando el menú está expandido*/
+	input:checked ~ label {
+	  background: lightgrey; 
+	}
+
+	#menu-hamburguesa ul{
+	  margin-top:0;
+	  padding: 0;
+	  width: 100px;
+
+	  
+	}
+
+	#lista-menu li{
+
+	  display:none;
+	  
+	}
+
+
+
+	/*Estilo cuando el mouse pasa encima de cada link del menu*/
+	#lista-menu li:hover {
+	  filter: brightness(110%);
+	  
+	}
+	/*--------------         MOVIL---------------------------*/
+	@media screen and (max-width: 600px){
+		/**/
+	header{
+		border: none;
+	}
+		#menu-hamburguesa{
+			background-color: #EDC7B7;
+		}
+		/*para que parezca que flota*/
+	h2{
+		display: inline;
+		color:white;
+		font-size:25px; 
+		padding: 5px;
+		font-family: "Comic Sans MS";
+		margin: 10px;
+		margin-right: 30px;
+		float:right;
+		
+	}
+
+		#mobile-menu{
+			display: inline;
+		
+		}
+		
+		#LeftBox{
+			display: none;
+		}
+		#RightBox{
+			display: none;
+		}
+		#MBox{
+			overflow: auto;	
+			background-color:#EEE2DC;
+			flex-basis: 100%;
+			height: 800px;
+			overflow: scroll;
+			box-sizing: border-box;
+		}
+
+		#BoxTablet{
+		display: none;	
+		}
+		#headerMenu a{
+		font-size:15px;
+		position:top;
+		}
+		
+		
+		img#logo{
+		display:none;
+	
+		}
+		img#logoTablet{
+			display: none;
+		}
+		
+		label {
+			background:#EEE2DC;
+		  box-sizing: border-box;
+		  display: inline-block;
+		  border: 1px solid black;
+		 border-radius: 40px;
+		  width: 40px;
+		  height: 40px;
+		  line-height: 40px;
+		  font-weight: bold;
+		  text-align: center;
+		  user-select: none;
+		   
+			margin-top:10px;
+			margin-left:15px;
+			transition: linear 1s;
+		  
+		  
+		}
+		/* Estilo del boton cuando se pasa el mouse por encima*/
+			label:hover{
+			  background: white;
+			  
+			}
+
+			/* Estilo del boton cuando el menú está expandido*/
+			input:checked ~ label {
+			  background: white; 
+			  
+			}
+			
+		#lista-menu a{
+				color:white;
+				text-decoration:none;
+				
+				
+		}
+		#lista-menu li{
+		  display: block;
+		  background: #AC3B61;
+		  font-size: 12px;
+		  font-family: "Comic Sans MS";
+		  margin: 0px;
+		  padding: 5px;
+		  list-style: none;
+		  border: 2px dotted white;
+		  text-align:center;
+		  overflow:visible; 
+	}
+
+	/*Cuando la pantalla de movil es muy pequeña*/
+	@media screen and (max-width: 425px){
+		
+		h2{display: none;}
+	}
+	
+
+	/*Estilo cuando el mouse pasa encima de cada link del menu*/
+	#lista-menu li:hover {
+	  filter: brightness(110%);
+	  
+
+	}
+	.container-footer1{
+		display:none;
+		
+	}
+	.otra-informacion a{
+		font-size:15px;
+	}
+		
+		
+}
+
+
+
+.dropbtn {
+ 
+  color: white;
+ padding: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border:none;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  align-content: center;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  background-color: #EEE2DC;
+  /*min-width: 160px;*/
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color:black;
+  border: none;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}

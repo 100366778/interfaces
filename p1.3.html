@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8">
+
+	 <script src="Script/funciones.js"></script>
+   <title>Interfaces de usuario</title>
+	 <link rel="stylesheet" type="text/css" href="style/stylesa.css"> 
+	</head>
+
+	<body>
+		<header>
+      <div id='titulo'>
+        <h2>INTERFACES DE USUARIO</h2>
+      </div>
+
+      <!--Menu hamburguesa-->
+      <nav>
+          <input type="checkbox" id="menus">
+          <label for="menus"> ☰ </label>
+          
+          <nav id='menu-hamburguesa'>
+            <ul id='lista-menu'>
+              <li><a href="p1.2.html">Alumnos</a></li>
+            <li><a href="p1.3.html">Forum</a></li>
+            <li><a href="p1.4.html">Calificaciones</a></li>
+            <li><a href="#">Proximas Novedades</a></li>
+            <li><a href="#">Ultimos eventos</a></li>
+            </ul>
+          </nav>  
+      </nav>
+
+
+			<a href="p1.1.html">
+			  <img id="logo" src="images/logo.png" alt="logointerfaces">
+			</a>
+		
+			<nav id="menu">
+				<ul id="headerMenu">
+					<li><a href="https://aplicaciones.uc3m.es/cpa/generaFicha?est=218&plan=431&asig=13882&idioma=1">Ficha</a></li>
+          <li><a href="http://ocw.uc3m.es/ingenieria-informatica/interfaces-de-usuario/ejercicios-proyectos-y-casos">Ejercicios</a>
+          </li>
+          <li><a href=http://ocw.uc3m.es/ingenieria-informatica/interfaces-de-usuario/guia-de-aprendizaje>Teoría</a>
+          </li>
+        </ul>
+
+			</nav>
+
+
+		</header>
+	<div class="container-1">
+
+      <div id="BoxTablet">
+            <h3>Interfaces de Usuario</h3>
+              <ul id="TabletRightBox">
+                  <li><a href="p1.2.html">Alumnos</a></li>
+                  <li><a href="p1.3.html">Forum</a></li>
+                  <li><a href="p1.4.html">Calificaciones</a></li>
+               </ul>
+               <br>
+          <h3>Últimas novedades</h3>
+                <ul class="tablettext">
+                      <li>Notas Primer Parcial</li>
+                      <li>Artículos de Interés</li>
+                      <li>Enunciado Práctica 2</li>
+                      <li>Enunciado Práctica opcional</li>
+                     
+               </ul>
+                <br>
+                <h3>Próximos Eventos</h3>
+                 <ul class="tablettext">
+                        <li>04/10/20 Tutoría Práctica 1</li>
+                        <li>08/10/20 Entrega Práctica 1</li>
+                        <li>20/10/20 Examen Teoría Temas 1 y 2</li>
+                        <li>3/11/20 Examen Teoría Temas 3 y 4</li>
+                        <li>5/11/20 Entrega Práctica 2</li>
+                 </ul>
+         </div>
+
+	 			 <div id="LeftBox">
+    		<h3 ><a id="link" href="plantilla.html">Interfaces de Usuario</a></h3>
+    			<ul id="LeftBoxtext">
+      				<li><a href="p1.2.html">Alumnos</a></li>
+     		    	<li><a href="p1.3.html">Forum</a></li>
+     			 	<li><a href="p1.4.html">Calificaciones</a></li>
+   			 	</ul>
+ 
+  				</div>
+  				<div id="MBox">
+  				  <h3>Forum</h3>
+  					
+               <table id="tablaForum">
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Autor</th> 
+                            <th>Tema</th>
+                            <th>Mensajes</th>
+                       </tr>
+                       <tr>
+                            
+                            <td> 
+
+                                 <div class="dropdown">
+                                <p onclick="myFunction()" class="dropbtn">Practica 1</p>
+                                <div id="myDropdown" class="dropdown-content">
+                                        <div class="fotos">
+                                            <img class="user" src="images/user.svg" alt="alumno1">
+                                        </div>    
+                                <ul class="datos">
+                                <li><h4>Nombre:</h4> Aglae Alejandra Pérez Salcedo</li>
+                                 
+                                  <li><h4>Mensaje</h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</li>
+                                
+                                 
+                                </ul>
+                                            <div class="fotos">
+                                                        <img class="user" src="images/user.svg" alt="alumno1">
+                                                    </div>    
+                                            <ul class="datos">
+                                            <li><h4>Nombre:</h4> Aglae Alejandra Pérez Salcedo</li>
+                                             
+                                              <li><h4>Mensaje</h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</li>
+                                            
+                                             
+                                            </ul>
+
+                                <ul>
+                                <li><textarea name="comentarios" rows="10" cols="50">Escribe aquí tus comentarios</textarea></li>
+                                 <li><button class="Enviar">Enviar</button></li>
+                                </ul>
+                                </div>
+                                </div>
+                                 
+                            </td>
+                            <td>10/10/2020 17:00:00</td>
+                            <td>Aglae Pérez Salcedo </td>
+                            <td>15</td>
+                      </tr>
+                      <tr>
+                            <td>07/10/2020 16:40:50</td>
+                            <td> Ornella Bolaños Escobar</td>
+                            <td> <a href=#>¿Qué es el HCI? ¿Cuál es su relación con el diseño de interfaces?</a></td>
+                            <td>04</td>
+                      </tr>
+                      <tr>
+                            <td>05/10/2020 07:34:10</td>
+                            <td>Ignacio Moreno</td>
+                            <td> <a href=#>Prototipado</a></td>
+                            <td>00</td>
+                      </tr>
+                      <tr>
+                            <td>02/10/2020 10:30:15</td>
+                            <td>Marta Magán</td>
+                            <td> <a href=#> Historia y Evolución de la WWW</a></td>
+                            <td>03</td>
+                      </tr>              
+                      <tr>
+                            <td>03/10/2020 14:30:15</td>
+                            <td>Arantxa Gonzalez</td>
+                            <td> <a href=#>Modelos predictivos</a></td>
+                            <td>10</td>
+                      </tr>
+                      <tr>
+                            <td>01/10/2020 13:30:15</td>
+                            <td>Lucía Rivas</td>
+                            <td> <a href=#>Paradigmas de Interacción</a></td>
+                            <td>06</td>
+                      </tr>
+
+
+
+              </table>
+
+          
+
+  				</div>
+  				
+
+          <div id="RightBox">
+  				  <h3>Últimas novedades</h3>
+                    <ul class="RightBoxtext">
+                        <li>Notas Primer Parcial</li>
+                        <li>Artículos de Interés</li>
+                        <li>Enunciado Práctica 2</li>
+                        <li>Enunciado Práctica opcional</li>
+                    </ul>
+              <h3>Próximos Eventos</h3>
+                   <ul class="RightBoxtext">
+                       <li>04/10/20 Tutoría Práctica 1</li>
+                       <li>08/10/20 Entrega Práctica 1</li>
+                       <li>20/10/20 Examen Teoría Temas 1 y 2</li>
+                       <li>3/11/20 Examen Teoría Temas 3 y 4</li>
+                       <li>5/11/20 Entrega Práctica 2</li> 
+                   </ul>
+
+            
+
+          </div>
+  		
+	</div>
+
+
+<footer>
+    <div class='container-footer'>
+      
+      <div class='container-footer1'>
+      
+          <table id='tabla-footer1'> 
+              <tr><td><h4>Fundacion Universidad Carlos III</h4></td></tr>
+              <tr><td><img src='images/formacion.png' alt="formacion"><a href='https://www.fundacion.uc3m.es/formacion/'>Formacion</a></td></tr>
+              <tr><td><img src='images/alumno.png' alt="alumno"><a href='https://www.fundacion.uc3m.es/alumni/'>Alumni UC3M</a></td></tr>
+              <tr><td><img src='images/empleo.jpg' alt="empleo"><a href='https://www.fundacion.uc3m.es/orientacion-empleo/'>Orientacion & Empleo</a></td></tr>
+              <tr><td><img src='images/idiomas.png' alt="idiomas"><a href='https://www.uc3m.es/ss/Satellite/Idiomas/es/PortadaMiniSite/1371240080129/'>Centro de idiomas</a></td></tr>
+              <tr><td><img src='images/colegio.png' alt="colegio"><a href='https://www.fundacion.uc3m.es/colegios-mayores/'>Colegios Mayores UC3M</a></td></tr>
+          </table>
+      
+          <table id='tabla-footer2'> 
+              <tr><td><h4>Redes Sociales</h4></td></tr>
+              <tr><td><a href='https://www.facebook.com/uc3m'><img src='images/facebook.png' alt="facebook"></a></td></tr>
+              <tr><td><a href='https://www.instagram.com/universidadcarlosiiidemadrid/' ><img src='images/instagram.jpg' alt="instagram"></a></td></tr>
+              <tr><td><a href='https://twitter.com/uc3m'><img src='images/twitter.png' alt="twitter" ></a></td></tr>
+              <tr><td><a href='https://www.linkedin.com/school/universidad-carlos-iii-de-madrid/?originalSubdomain=es'><img src='images/linkedin.png' alt="linkedin"></a></td></tr>
+          </table>
+          
+          <table id='tabla-footer3'>
+              <tr><td><h4>Información de contacto</h4></td></tr>
+              <tr><td><img src='images/campus.jpg' alt="campus1"><a href=''>Campus de Colmenarejo</a></td></tr>
+              <tr><td><img src='images/campus.jpg' alt="campus2"><a href=''>Campus de Getafe</a></td></tr>
+              <tr><td><img src='images/campus.jpg' alt="campus3"><a href=''>Campus de Leganes</a></td></tr>
+              <tr><td><img src='images/telefono.png' alt="numero"><a>Ayuda al estudiante: 91 624 6000</a></td></tr>
+              <tr><td><img src='images/email.png' alt="email"><a>Oficina de alumnos Colmenarejo: ecolme@uc3m.es</a></td></tr>
+
+              
+          </table>
+        
+      
+      </div>
+            <div class='container-footer2'>
+              <div class='otra-informacion'>
+                <a href=''>Politica de privacidad</a> | 
+                <a href=''>Copyright</a> |
+                <a href=''>Terminos y condiciones</a>
+              </div>
+            </div>
+        
+    </div>
+      
+<!--</div>-->
+</footer>
+
+	</body>
+
+</html>
